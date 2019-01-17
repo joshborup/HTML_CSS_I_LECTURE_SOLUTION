@@ -1,0 +1,72 @@
+body {
+	height: 100%;
+	width: 100%;
+	background: rgb(202, 202, 202);
+}
+
+.main-header {
+	width: 100%;
+	height: 100px;
+	background: black;
+	padding: 25px 50px;
+}
+/* code shared for dryness */
+.main-header > div,
+.main-header > nav {
+	background: white;
+	height: 100%;
+}
+
+.logo {
+	/* show how percentage is effected by size of parent */
+	width: 100px;
+	float: left;
+}
+
+.main-nav {
+	width: 200px;
+	float: right;
+}
+
+section {
+	height: 300px;
+	width: 600px;
+	background: black;
+	margin: 0 auto;
+	margin-top: 125px;
+	padding: 25px 50px;
+}
+
+.box-one,
+.box-two {
+	height: 50px;
+	background: white;
+	margin: 20px auto;
+}
+
+.box-one {
+	width: 500px;
+}
+
+.box-two {
+	width: 400px;
+	height: 50px;
+}
+
+.button-left,
+.button-right {
+	height: 30px;
+	background: white;
+	width: 180px;
+	border-radius: 20px;
+	display: inline-block;
+}
+
+.button-left {
+	margin-left: 50px;
+	float: left;
+}
+.button-right {
+	margin-right: 50px;
+	float: right;
+}

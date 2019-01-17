@@ -1,0 +1,55 @@
+<!--
+	Doctype declaration is what tells the browser to expect incoming HTML, html 4.1 had 3 different doctypes, html, xhtml, xml
+-->
+<!DOCTYPE html>
+<!--
+	HTML tag is the most parent tag in our document declare language in HTML tags for screen reader
+-->
+<html lang="en">
+	<!-- head is where meta data goes, data about our document -->
+	<head>
+		<!-- utf-8 is character encoding -->
+		<meta charset="UTF-8" />
+		<!--
+			must set this tag for starting point to allow for mobile devices to render properly
+		-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!---->
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<!-- Make sure you always have a title -->
+		<title>HTML Day One</title>
+
+		<!-- Import open sans font from fonts.google.com -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"
+			rel="stylesheet"
+		/>
+
+		<!-- Reset file always goes before any other css file -->
+		<link rel="stylesheet" href="./reset.css" />
+
+		<!-- Main styles for the lecture -->
+		<link rel="stylesheet" href="./lecture.css" />
+	</head>
+
+	<!-- anything we want to render to the screen goes in the body tag -->
+	<body>
+		<!-- Use semantic tags wherever possible -->
+		<header class="main-header">
+			<div class="logo"></div>
+			<nav class="main-nav"></nav>
+		</header>
+		<main>
+			<!-- Main content container -->
+			<section class="main-container">
+				<div class="box-one"></div>
+				<div class="box-two"></div>
+
+				<!-- inline-block these buttons -->
+				<div class="button-left"></div>
+				<div class="button-right"></div>
+			</section>
+		</main>
+	</body>
+</html>
