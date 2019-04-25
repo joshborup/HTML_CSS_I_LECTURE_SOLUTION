@@ -115,4 +115,3 @@ in index.html
 }
 ```
 
-## Floats
