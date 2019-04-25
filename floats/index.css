@@ -1,36 +1,37 @@
-
 body div {
-    width: 100%;
+  width: 100%;
 }
 
-body div:nth-child(1), body div:nth-child(2), body div:nth-child(3), body div:nth-child(4){
-    height: 150px;
-    width: 150px;
-    color: white;
-    border: solid 12.5px black;
-    font-size: 75px;
-    padding-top: 25px;
-    text-align: center;
+body div:nth-child(1),
+body div:nth-child(2),
+body div:nth-child(3),
+body div:nth-child(4) {
+  height: 150px;
+  width: 150px;
+  color: white;
+  border: solid 12.5px black;
+  font-size: 75px;
+  padding-top: 25px;
+  text-align: center;
 }
 
 body div:nth-child(1) {
-    background: red;
-    float: right;
+  background: red;
+  float: right;
 }
 
 body div:nth-child(2) {
-    float: right;
-    clear: left;
-    background: blue;
+  float: right;
+  background: blue;
 }
 
 body div:nth-child(3) {
-    background: red;
-    float: right;
-    clear: right;
+  background: red;
+  float: left;
+  clear: right;
 }
 
 body div:nth-child(4) {
-    float: right;
-    background: blue;
+  float: left;
+  background: blue;
 }
