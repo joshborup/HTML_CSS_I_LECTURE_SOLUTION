@@ -18,20 +18,28 @@ body div:nth-child(4) {
 body div:nth-child(1) {
   background: red;
   float: right;
+  clear: both;
+  
 }
 
 body div:nth-child(2) {
   float: right;
   background: blue;
+  clear: both;
+
 }
 
 body div:nth-child(3) {
   background: red;
   float: left;
-  clear: right;
+  clear: both;
+  
+  
 }
 
 body div:nth-child(4) {
   float: left;
   background: blue;
+  clear: both;
+
 }
